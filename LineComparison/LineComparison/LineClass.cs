@@ -13,5 +13,12 @@ namespace LineComparison
             double result = Math.Sqrt(Math.Pow(x2 - x1, 2) + Math.Pow(y2 - y1, 2));
             return result;
         }
+        public void checkEquality(double len1,double len2)
+        {
+            if (len1 == len2)
+                Console.WriteLine("Length of both lines are equals");
+            else
+                Console.WriteLine("Length of both lines are not equals");
+        }
     }
 }
